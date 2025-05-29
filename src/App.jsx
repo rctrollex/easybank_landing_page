@@ -1,8 +1,11 @@
 import React from 'react'
+import Home from "./pages/Home.jsx";
 
 const App = () => {
     return (
-        <div className="text-3xl">App</div>
+        <div>
+            <Home/>
+        </div>
     )
 }
 export default App
