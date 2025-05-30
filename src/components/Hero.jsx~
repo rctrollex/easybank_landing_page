@@ -4,6 +4,8 @@ import mobiles from '../assets/image-mockups.png'
 const Hero = () => {
     return (
         <section className="pt-16 pb-16">
+            <div>
+            </div>
             <div className="container mx-auto px-4 p-40">
                 <h2 className="text-4xl mb-5 w-xs">Next generation digital banking</h2>
                 <p className="text-gray-500 text-sm sm:text-base w-sm mb-8">

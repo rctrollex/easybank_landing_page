@@ -23,7 +23,7 @@ const Navbar = () => {
                     <button className="bg-gradient-to-r from-green-400 to-blue-300 rounded-2xl py-2 px-4 cursor-pointer shadow-md hover:bg-gradient-to-r hover:from-blue-300 hover:to-green-400 transition">Request Invite</button>
                 </div>
 
-                <div className="md:hidden">
+                <div className="md:hidden px-2">
                     <button className="text-gray-500 hover:text-white focus:outline-none" onClick={()=>setIsOpen(!isOpen)}>
                         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
