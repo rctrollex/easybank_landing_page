@@ -34,13 +34,13 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="text-white text-base flex flex-col text-center mb-4 space-y-3">
+                    <div className="text-white text-base flex flex-col mb-4 space-y-3">
                         <a href="#about" className="hover:text-green-400 transition duration-300">About</a>
                         <a href="#contact" className="hover:text-green-400 transition duration-300">Contact</a>
                         <a href="blog" className="hover:text-green-400 transition duration-300">Blog</a>
                     </div>
 
-                    <div className="text-white text-base flex flex-col text-center mb-4 space-y-3">
+                    <div className="text-white text-base flex flex-col mb-4 space-y-3">
                         <a href="#about" className="hover:text-green-400 transition duration-300">Careers</a>
                         <a href="#contact" className="hover:text-green-400 transition duration-300">Support</a>
                         <a href="blog" className="hover:text-green-400 transition duration-300">Privacy Policy</a>
