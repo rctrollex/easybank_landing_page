@@ -36,7 +36,7 @@ These below are the screenshots of the final project.
 ### Links
 
 - Solution URL: [GitHub Repository for the solution](https://github.com/rctrollex/easybank_landing_page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [EasyBank Live Link](https://www.easybank-rctrollex.vercel.app)
 
 ## My process
 I used React js and Tailwind CSS.React Js role was to code the states for changing the logo and opening a mobile navigation bar. Tailwind CSS, I used it for styling every component in this project, from navbar to footer.
