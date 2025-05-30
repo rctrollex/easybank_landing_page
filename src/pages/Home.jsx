@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
 import WhyUs from "../components/WhyUs.jsx";
 import LatestArticles from "../components/LatestArticles.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Hero/>
             <WhyUs/>
             <LatestArticles/>
+            <Footer/>
         </div>
     )
 }
