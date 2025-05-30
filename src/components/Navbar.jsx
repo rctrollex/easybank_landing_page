@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import logo from '../assets/logo.svg'
 import MobileNav from "./MobileNav.jsx";
+import open from "../assets/icon-hamburger.svg"
+import close from "../assets/icon-close.svg"
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,11 +27,7 @@ const Navbar = () => {
 
                 <div className="md:hidden px-2">
                     <button className="text-gray-500 hover:text-white focus:outline-none" onClick={()=>setIsOpen(!isOpen)}>
-                        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'}>
-                            </path>
-                        </svg>
+                        {isOpen ? <img src={close} alt="close icon"/> : <img src={open} alt="open icon"/>}
                     </button>
                 </div>
             </div>
