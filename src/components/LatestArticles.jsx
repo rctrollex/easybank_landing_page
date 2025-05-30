@@ -2,7 +2,7 @@ import React from 'react'
 import money from '../assets/image-currency.jpg'
 import restaurant from '../assets/image-restaurant.jpg'
 import plane from '../assets/image-plane.jpg'
-import confetii from '../assets/image-confetti.jpg'
+import confetti from '../assets/image-confetti.jpg'
 const LatestArticles = () => {
     return (
         <div className="pt-24 pb-24 bg-gray-100">
@@ -10,7 +10,7 @@ const LatestArticles = () => {
                 <h2 className="text-3xl mb-2 p-4">Latest Articles</h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 container mx-auto px-4 pt-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 container mx-auto px-2 pt-4">
                 <div className="flex flex-col h-full p-4">
                     <div className="container flex justify-center md:justify-start">
                         <img src = {money} alt="Receive money" className="w-full h-full md:w-150 md:h-70 rounded-xl"/>
@@ -49,7 +49,7 @@ const LatestArticles = () => {
 
                 <div className="flex flex-col h-full p-4">
                     <div className="container flex justify-center md:justify-start">
-                        <img src = {confetii} alt="Confetii" className="w-full h-full md:w-150 md:h-70 rounded-xl"/>
+                        <img src = {confetti} alt="Confetii" className="w-full h-full md:w-150 md:h-70 rounded-xl"/>
                     </div>
 
                     <div className="px-4 py-6">

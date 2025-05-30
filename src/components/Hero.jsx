@@ -3,7 +3,7 @@ import background from '../assets/bg-intro-desktop.svg'
 import mobiles from '../assets/image-mockups.png'
 const Hero = () => {
     return (
-        <section className="pt-16 pb-16">
+        <section className="pt-16 pb-40">
             <div className="container mx-auto px-4 p-40">
                 <h2 className="text-4xl mb-5 text-center md:w-xs md:text-start">Next generation digital banking</h2>
                 <p className="text-gray-500 text-base text-center md:w-sm md:text-start mb-8">

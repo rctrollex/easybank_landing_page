@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <nav className="fixed z-10 bg-white w-full">
-            <div className="container justify-between flex items-center mx-auto p-4">
+            <div className="container justify-between flex items-center py-2 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="">
                     <img src={logo} alt="easybank logo" />
                 </div>

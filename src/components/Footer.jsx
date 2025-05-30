@@ -9,7 +9,7 @@ import instagram from '../assets/icon-instagram.svg'
 const Footer = () => {
     return (
         <footer className="bg-blue-950 text-white text-base z-10 w-full">
-            <div className="container flex md:justify-between justify-center mx-auto px-4 py-8 flex-col md:flex-row">
+            <div className="container flex md:justify-between justify-center py-8 flex-col md:flex-row max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row md:gap-50 ">
                     <div>
                         <div className="block container justify-center md:justify-start flex">
