@@ -17,7 +17,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 pt-90 md:py-25 relative z-20">
+            <div className="container mx-auto px-4 pt-90 md:py-25">
                 <h2 className="text-4xl mb-5 text-center md:w-xs md:text-start">Next generation digital banking</h2>
                 <p className="text-gray-500 text-base text-center md:w-sm md:text-start mb-8">
                     Take your financial life online. Your Easybank account will be a one-stop-shop
